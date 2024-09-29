@@ -120,7 +120,7 @@ export default {
 					try {
 						// 设置2秒超时
 						const controller = new AbortController();
-						const timeoutId = setTimeout(() => controller.abort(), 60000);
+						const timeoutId = setTimeout(() => controller.abort(), 50000);
 	
 						const response = await fetch(url, {
 							method: 'get',
